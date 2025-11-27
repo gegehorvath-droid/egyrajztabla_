@@ -1,4 +1,4 @@
-# Egy Rajztábla
+# Egy rajztábla
 
 ## Készítő neve
 Név: Horváth Gergő  
@@ -55,4 +55,5 @@ A RajzApp létrehozza a főablakot (root) és a grafikus elemeket, az egér mozg
       - `színváltás`
       - `véletlenszín`
       - `teljes törlés`
-Az eseménykezelések canvas.bind()-del vannak hozzárendelve.
+      
+Az **eseménykezelések** `canvas.bind()`-del vannak hozzárendelve.
