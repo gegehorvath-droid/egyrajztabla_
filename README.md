@@ -5,7 +5,6 @@ Név: Horváth Gergő
 Neptun kód: JKFHTS
 
 ## Feladat rövid leírása
-Egy egyszerű rajzolóprogram Pythonban, `tkinter` grafikus felülettel.  
 Az egérrel lehet a vászonra rajzolni, a színt gombokkal lehet váltani, a vászon törölhető, és véletlen szín is választható.
 
 ## Fájlok és modulok
@@ -46,3 +45,21 @@ Az egérrel lehet a vászonra rajzolni, a színt gombokkal lehet váltani, a vá
       - `egermozgas(self, event)`
       - `eger_fel(self, event)`
       - `run(self)`
+      -
+  - **Működés röviden:**
+
+A program a main.py fájlból indul (app = RajzApp()).
+
+A RajzApp létrehozza a főablakot (root) és a grafikus elemeket.
+
+Az egér mozgatásával a felhasználó rajzolhat.
+
+**A gombok:**
+
+színváltás
+
+véletlenszín
+
+teljes törlés
+
+Az eseménykezelések canvas.bind()-del vannak hozzárendelve.
