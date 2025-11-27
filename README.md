@@ -1,6 +1,6 @@
 # Egyszerű Rajztábla
 
-## Hallgató neve
+## Készítő neve
 Név: Horváth Gergő  
 Neptun kód: JKFHTS
 
@@ -45,21 +45,14 @@ Az egérrel lehet a vászonra rajzolni, a színt gombokkal lehet váltani, a vá
       - `egermozgas(self, event)`
       - `eger_fel(self, event)`
       - `run(self)`
-      -
-  - **Működés röviden:**
+
+**Működés röviden:**
 
 A program a main.py fájlból indul (app = RajzApp()).
-
-A RajzApp létrehozza a főablakot (root) és a grafikus elemeket.
-
-Az egér mozgatásával a felhasználó rajzolhat.
+A RajzApp létrehozza a főablakot (root) és a grafikus elemeket, az egér mozgatásával a felhasználó rajzolhat.
 
 **A gombok:**
-
-színváltás
-
-véletlenszín
-
-teljes törlés
-
+      - `színváltás`
+      - `véletlenszín`
+      - `teljes törlés`
 Az eseménykezelések canvas.bind()-del vannak hozzárendelve.
