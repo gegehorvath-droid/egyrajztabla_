@@ -1,4 +1,4 @@
-# Egyszerű Rajztábla
+# Egy Rajztábla
 
 ## Készítő neve
 Név: Horváth Gergő  
